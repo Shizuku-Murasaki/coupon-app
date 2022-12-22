@@ -1,0 +1,44 @@
+{
+  "application.js": "/packs/js/application-84a10940c3af6cc66784.js",
+  "application.js.map": "/packs/js/application-84a10940c3af6cc66784.js.map",
+  "dropdown.js": "/packs/js/dropdown-c37bb1f969a3a3699432.js",
+  "dropdown.js.map": "/packs/js/dropdown-c37bb1f969a3a3699432.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-84a10940c3af6cc66784.js"
+      ],
+      "js.map": [
+        "/packs/js/application-84a10940c3af6cc66784.js.map"
+      ]
+    },
+    "dropdown": {
+      "js": [
+        "/packs/js/dropdown-c37bb1f969a3a3699432.js"
+      ],
+      "js.map": [
+        "/packs/js/dropdown-c37bb1f969a3a3699432.js.map"
+      ]
+    },
+    "flash": {
+      "js": [
+        "/packs/js/flash-e1f1f29aa7ef40802e4e.js"
+      ],
+      "js.map": [
+        "/packs/js/flash-e1f1f29aa7ef40802e4e.js.map"
+      ]
+    },
+    "select-menu": {
+      "js": [
+        "/packs/js/select-menu-55042a8f4217d757d645.js"
+      ],
+      "js.map": [
+        "/packs/js/select-menu-55042a8f4217d757d645.js.map"
+      ]
+    }
+  },
+  "flash.js": "/packs/js/flash-e1f1f29aa7ef40802e4e.js",
+  "flash.js.map": "/packs/js/flash-e1f1f29aa7ef40802e4e.js.map",
+  "select-menu.js": "/packs/js/select-menu-55042a8f4217d757d645.js",
+  "select-menu.js.map": "/packs/js/select-menu-55042a8f4217d757d645.js.map"
+}
