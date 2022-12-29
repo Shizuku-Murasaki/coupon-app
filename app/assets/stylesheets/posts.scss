@@ -35,7 +35,31 @@
 }
 
 /* posts/new ================================ */
-.posts-new textarea {
+.bg {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #0000006a;
+  z-index: 9;
+}
+
+.post-form {
+  position: fixed;
+  z-index: 10;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.modal-form {
+  box-shadow: none;
+  z-index: 10;
+}
+
+.modal-form textarea {
   font-size: 20px;
   padding: 10px;
   min-height: 140px;
@@ -43,7 +67,7 @@
   resize: none;
 }
 
-.posts-new textarea::-webkit-input-placeholder {
+.modal-form textarea::-webkit-input-placeholder {
   font-size: 24px;
   opacity: 0.5;
 }

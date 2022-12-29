@@ -7,15 +7,21 @@ class PostsController < ApplicationController
 
   def new
     @post = Post.new
+    respond_to do |format|
+      format.html
+      format.js
+    end
   end
 
   def create
     @post = Post.new(content: params[:content])
-    if @post.save
-      redirect_to("/posts/index")
-      flash[:notice] = "投稿を作成しました"
-    else
-      render("posts/new")
+    respond_to do |format|
+      if @post.save
+        redirect_to('/posts/index')
+        flash[:notice] = '投稿を作成しました'
+      else
+        format.js { @error = @post.errors.full_messages }
+      end
     end
-  end
+  end 
 end

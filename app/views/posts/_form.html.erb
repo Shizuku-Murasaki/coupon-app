@@ -1,0 +1,14 @@
+<div class="bg"></div>
+<%= form_tag("/posts/create", class: "post-form") do %>
+	<div class="form modal-form">
+		<div class="form-body">
+			<% @post.errors.full_messages.each do |message| %>
+				<div class="form-error">
+					<%= message %>
+				</div>
+			<% end %>
+			<textarea name="content" id="content"></textarea>
+			<input type="submit" value="投稿">
+		</div>
+	</div>
+<% end %>

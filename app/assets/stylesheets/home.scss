@@ -276,6 +276,7 @@ header a:not(.dropdown__item-link):hover {
   margin: 0 auto;
   background-color: white;
   box-shadow: 0 2px 6px #c1ced7;
+  border-radius: 10px;
 }
 
 .form-heading {
@@ -300,7 +301,7 @@ header a:not(.dropdown__item-link):hover {
   color: #57575f;
   font-size: 16px;
   letter-spacing: 2px;
-  border-radius: 2px;
+  border-radius: 10px;
 }
 
 .form textarea {
@@ -308,6 +309,7 @@ header a:not(.dropdown__item-link):hover {
   min-height: 110px;
   font-size: 16px;
   letter-spacing: 2px;
+  border-radius: 10px;
 }
 
 .form input[type="submit"] {
@@ -317,7 +319,7 @@ header a:not(.dropdown__item-link):hover {
   cursor: pointer;
   font-weight: 300;
   width: 120px;
-  border-radius: 2px;
+  border-radius: 10px;
   margin-top: 8px;
   margin-bottom: 0;
   float: right;
@@ -351,4 +353,13 @@ header a:not(.dropdown__item-link):hover {
 
 .flash.showUpDown {
   bottom: 12%;
+}
+
+/* モーダル ================================ */
+.modal {
+  display: none;
+}
+
+.open {
+  display: block;
 }

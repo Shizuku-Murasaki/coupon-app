@@ -1,0 +1,7 @@
+$("#modal").html("<%= j (render 'form') %>");
+$(function () {
+	$("#modal").addClass("open");
+	$(".bg").on("click", function () {
+		$("#modal").removeClass("open");
+	});
+});
